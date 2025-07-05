@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${
+    <div className={`min-h-screen transition-colors duration-300 overflow-x-hidden ${
       darkMode ? 'bg-gray-900' : 'bg-gray-50'
     }`}>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />

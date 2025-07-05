@@ -99,7 +99,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           {/* Main Content */}
           <motion.div variants={itemVariants}>
             <motion.h1 
-              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent"
+              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 uppercase bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent"
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
