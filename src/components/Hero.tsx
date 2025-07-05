@@ -158,7 +158,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           </motion.div>
 
           {/* Download Resume Button */}
-          <a href="../../assets/Veena_Kalgagari.pdf" download>
+          <a href="https://github.com/GuruPrasad403/VK/blob/main/assets/Veena_Kalgagari.pdf" download>
           <motion.div variants={itemVariants} className="mb-16">
             <motion.button 
               className="inline-flex items-center space-x-2 bg-white text-blue-900 px-8 py-4 rounded-full font-semibold shadow-lg backdrop-blur-sm"
