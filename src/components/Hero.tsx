@@ -158,23 +158,29 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           </motion.div>
 
           {/* Download Resume Button */}
-          <a href="https://github.com/GuruPrasad403/VK/blob/main/assets/Veena_Kalgagari.pdf" download>
-          <motion.div variants={itemVariants} className="mb-16">
-            <motion.button 
-              className="inline-flex items-center space-x-2 bg-white text-blue-900 px-8 py-4 rounded-full font-semibold shadow-lg backdrop-blur-sm"
-              whileHover={{ 
-                scale: 1.05, 
-                boxShadow: "0 20px 40px rgba(255,255,255,0.3)",
-                y: -2
-              }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 400, damping: 17 }}
-            >
-              <Download className="w-5 h-5" />
-              <span>Download Resume</span>
-            </motion.button>
-          </motion.div>
+    <a 
+  href="https://raw.githubusercontent.com/GuruPrasad403/VK/main/assets/Veena_Kalgagari.pdf" 
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.div variants={itemVariants} className="mb-16">
+    <motion.button 
+      className="inline-flex items-center space-x-2 bg-white text-blue-900 px-8 py-4 rounded-full font-semibold shadow-lg backdrop-blur-sm"
+      whileHover={{ 
+        scale: 1.05, 
+        boxShadow: "0 20px 40px rgba(255,255,255,0.3)",
+        y: -2
+      }}
+      whileTap={{ scale: 0.95 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+    >
+      <Download className="w-5 h-5" />
+      <span>Download Resume</span>
+    </motion.button>
+  </motion.div>
 </a>
+
           {/* Scroll Indicator */}
           <motion.div 
             className="cursor-pointer" 
