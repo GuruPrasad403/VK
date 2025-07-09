@@ -66,10 +66,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              To secure a challenging and growth-oriented position where I can effectively apply my 
-              subject knowledge, communication skills, and leadership potential. I aim to contribute 
-              meaningfully to the organization's success while continuously learning, evolving, and 
-              achieving both personal and professional goals.
+To obtain a dynamic and growth-driven role where I can leverage my subject expertise, strong communication abilities, and leadership qualities to drive meaningful impact. I aspire to be a valuable contributor to the organization’s success by continuously learning, adapting, and aligning my personal and professional growth with the company’s long-term vision and goals.
             </motion.p>
           </motion.div>
         </div>

@@ -73,7 +73,7 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                  Bachelor of Arts
+                  Bachelor of Computer
                 </motion.h3>
                 <motion.p 
                   className="text-xl text-purple-600 font-semibold mb-4"

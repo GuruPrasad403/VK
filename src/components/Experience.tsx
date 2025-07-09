@@ -27,21 +27,21 @@ const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
     },
     {
       title: "Executive",
-      company: "ARDS",
-      period: "2024 – 2025",
-      responsibilities: [
-        "Engaged customers using strong verbal communication",
-        "Led service level improvement initiatives"
-      ]
-    },
-    {
-      title: "Executive",
       company: "Tata Business Support Services",
       period: "2014 – 2018",
       responsibilities: [
         "Resolved customer complaints while maintaining service quality",
         "Displayed professional phone etiquette",
         "Handled difficult calls effectively with problem-solving skills"
+      ]
+    },
+    {
+      title: "Executive",
+      company: "ARDS",
+      period: "2013 – 2014",
+      responsibilities: [
+        "Engaged customers using strong verbal communication",
+        "Led service level improvement initiatives"
       ]
     }
   ];
